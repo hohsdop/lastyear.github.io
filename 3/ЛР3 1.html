@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+var Today = new Date();
+var DayOfTheWeek = Today.getDay();
+var DayOfTheWeeks = ['воскресенье', 'понедельник', 'вторник',
+'среда', 'четерг', 'пятница', 'суббота'];
+
+
+var d=new Date();
+var day=d.getDate();
+var month=d.getMonth() + 1;
+var year=d.getFullYear();
+document.write('<H1>Дата - ', day + "." + month + "." + year);
+
+
+
+
+
+document.write('<H1>Сегодня – ', DayOfTheWeeks[DayOfTheWeek],
+'</H1>');
+</script>
+</body>
+</html>

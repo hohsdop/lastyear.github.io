@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+function func() {
+var a = Number(document.getElementById('a').value, 10);
+var b = Number(document.getElementById('b').value, 10);
+if (!isNaN(a) && !isNaN(b)) {
+var c = a + b;
+alert(c);
+} else {
+alert("¬ведите числа!");
+}
+}
+</script>
+<input id="a" type="text"><br>
+<input id="b" type="text"><br>
+<input type="button" value="Суммировать числа"
+onclick="func();"><br>
+</body>
+
+</html>
